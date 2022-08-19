@@ -1,0 +1,24 @@
+{  
+ "ctx": {    
+  "properties": [      
+    {        
+     "key":"quotation.branch",        
+     "value":"CoopHLM"      
+    },
+    {        
+     "key":"quotation.obligatory",        
+     "value":"true"      
+    },
+{        
+     "key":"quotation.formule",        
+     "value":"Adulte"      
+    }      
+   ]  
+ },  
+ "elements": [    
+  {      
+   "code":"ui_getAvailableCovers",      
+   "type":"FUNCTION"    
+  }  
+ ]
+}

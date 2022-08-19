@@ -1,0 +1,78 @@
+{  
+ "ctx": {
+  "properties": [
+    {
+     "key":"quotation.branch",
+     "value":"CoopHLM"
+    },
+    {
+     "key":"quotation.obligatory",
+     "value":"true"
+    },
+{
+     "key":"quotation.formule",
+     "value":"Adulte"
+    },
+{
+     "key":"quotation.year",
+     "value":"2022"
+    },
+{
+     "key":"quotation.regime",
+     "value":"ALM"
+    },
+{
+     "key":"quotation.requestedOption",
+     "value":"Option1"
+    },
+
+
+ {
+        "key": "quotation.covers",
+        "complexValues": [
+          [
+            {
+              "key": "code",
+              "value": "Salare"
+            },
+            {
+              "key": "quantity",
+              "value": "1"
+            }
+       ],
+
+ [
+            {
+              "key": "code",
+              "value": "Enfants"
+            },
+            {
+              "key": "quantity",
+              "value": "3"
+            }
+       ],
+ [
+            {
+              "key": "code",
+              "value": "Conjoint"
+            },
+            {
+              "key": "quantity",
+              "value": "1"
+            }
+       ]
+
+
+]
+}
+
+
+   ]
+ },
+ "elements": [
+  {
+   "code":"ui_calculateCost",
+   "type":"FUNCTION"
+  }
+ ]
+}

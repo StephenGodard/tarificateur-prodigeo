@@ -1,0 +1,20 @@
+{  
+ "ctx": {    
+  "properties": [      
+    {        
+     "key":"quotation.branch",        
+     "value":"CoopHLM"      
+    },
+    {        
+     "key":"quotation.obligatory",        
+     "value":"true"      
+    }    
+   ]  
+ },  
+ "elements": [    
+  {      
+   "code":"ui_getAvailableFormulas",      
+   "type":"FUNCTION"    
+  }  
+ ]
+}
