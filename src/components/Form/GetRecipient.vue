@@ -10,10 +10,6 @@
 
 <div class="separator"></div>
 
-
-    <!------ ------->
-
-
     <b-form-group v-if="currentCoverage.coverObl=='yes'">
       <label><b> Ayant droit Obligatoire :</b></label><br/>
       <label >Nombre d'enfant(s) couvert(s)</label>
@@ -42,7 +38,7 @@
         <label >Nombre d'enfants couvert </label>
         <b-form-select v-model="form.nbrChild" :options="availableNbrChild"></b-form-select>
           </b-form-group>
-      <!-------->
+
       <b-form-group id="Adult">
         <label >Nombre d'adultes couvert</label>
         <b-input-group id="numberChild">
@@ -61,7 +57,7 @@
 
 
 
-      <!--------------------------------------->
+
 
 
       <b-form-group  v-if="currentCoverage.currentChildCover=='noCoverChild'">
